@@ -8,6 +8,7 @@
 #import "OIMManager.h"
 #import "Reachability.h"
 #import "CallbackProxy.h"
+#import "UIKit/UIKit.h"
 
 @interface OIMManager ()
 {

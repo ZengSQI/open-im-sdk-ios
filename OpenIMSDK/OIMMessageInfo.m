@@ -6,7 +6,7 @@
 //
 
 #import "OIMMessageInfo.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 
 @implementation OIMOfflinePushInfo
 

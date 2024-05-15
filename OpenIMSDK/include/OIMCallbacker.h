@@ -6,7 +6,7 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 
 #import "OIMDefine.h"
 #import "OIMUserInfo.h"

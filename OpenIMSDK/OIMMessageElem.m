@@ -6,7 +6,7 @@
 //
 
 #import "OIMMessageElem.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 
 @implementation OIMMessageEntity
 

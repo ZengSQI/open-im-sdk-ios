@@ -8,6 +8,8 @@
 #ifndef IMDefine_h
 #define IMDefine_h
 
+#import <Foundation/Foundation.h>
+
 typedef NS_ENUM(NSInteger, OIMPlatform) {
     iPhone = 1, // iPhone
     android = 2,

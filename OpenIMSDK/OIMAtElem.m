@@ -6,7 +6,7 @@
 //
 
 #import "OIMAtElem.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 
 @import OpenIMCore;
 

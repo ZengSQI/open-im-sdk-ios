@@ -6,7 +6,7 @@
 //
 
 #import "OIMSearchResultInfo.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 #import "OIMMessageInfo.h"
 
 @implementation OIMSearchResultItemInfo

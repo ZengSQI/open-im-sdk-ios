@@ -6,7 +6,7 @@
 //
 
 #import "OIMAttachedInfoElem.h"
-#import <MJExtension/MJExtension.h>
+#import "MJExtension.h"
 
 @implementation OIMGroupHasReadInfo
 

@@ -9,7 +9,6 @@ let package = Package(
     // Products define the executables and libraries a package produces, and make them visible to other packages.
     .library(
       name: "OpenIMSDK",
-      type: .static,
       targets: ["OpenIMSDK"]
     ),
   ],
@@ -25,15 +24,16 @@ let package = Package(
       name: "OpenIMSDK",
       dependencies: [
         .product(name: "OpenIMSDKCore", package: "openim-sdk-core-ios"),
-        "MJExtension",
+        .product(name: "MJExtension", package: "MJExtension"),
       ],
       path: "OpenIMSDK",
-      sources: ["OpenIMSDK.h"], 
-      publicHeadersPath: ".",
+      cxxSettings: [
+        .headerSearchPath("include"),
+      ],
       linkerSettings: [
         .linkedLibrary("resolv"),
+        .linkedFramework("SystemConfiguration")
       ]
     ),
   ]
 )
-
